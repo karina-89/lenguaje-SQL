@@ -1,0 +1,1 @@
+SELECT nombre,precio AS 'Precio EUR',ROUND(precio * 0.89,2) AS 'Precio USD' FROM producto
